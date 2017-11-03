@@ -1,0 +1,100 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://bucketlistjourney.net/wp-content/uploads/2012/06/IMG_1207-800x533.jpg");
+
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+.ui.container{
+  width:100%;
+  padding:0px;
+}
+.login{
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+.login1{
+padding:60px !important;
+}
+body {
+    background-color: #eee;
+}
+.loginHead{
+    color:#FE1C3B;
+    font-size:50px;
+
+}
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+input.ng-invalid.ng-dirty {
+    border: 1px solid red;
+}
+
+#app .navbar {
+    color: white;
+    background-color: #E0054B  ;
+}
+
+#app .navbar a {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#app .login {
+    background-color: black;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app .login-form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    padding-top: 0;
+    border-radius: 4px;
+}
+.btn {
+border:none;
+background-color:#CF022D  ;
+color:white;
+padding:10px 20px;
+}
+.btn:hover{
+  border:none;
+  background-color:darkred  ;
+  color:white;
+}
+.online{
+  color:white;
+}
+.online1{
+  color:white;
+  font-size: 200px;
+}
